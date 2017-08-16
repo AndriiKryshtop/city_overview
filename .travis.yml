@@ -9,3 +9,6 @@ os:
 branches:
   only:
     - master
+
+ notifications:
+    slack: group3lab3:cN6lGUS1NQOLuwTRvoiL6NK4
