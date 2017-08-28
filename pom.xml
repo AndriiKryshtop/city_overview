@@ -6,7 +6,10 @@
 	<groupId>Group3.lab3</groupId>
 	<artifactId>city_overview</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>co_ORM</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>city_overview</name>
 	<description>Demo project for Spring Boot</description>
@@ -39,6 +42,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.18</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
